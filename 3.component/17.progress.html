@@ -1,0 +1,43 @@
+<head>
+<title>progress</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='http://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<link rel='stylesheet' href='http://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'/>
+</head>
+<body>
+<div class='container'>
+    <div class='row mt-3'><!-- 분모를 띄우면 분자 둘 모두 띄워진다. -->
+        <div class='col'>
+            <!-- 과제 : 브라우저창과 프로그레스 사이에 공간을 띄우자. -->
+            <div class='progress'>
+                <div class='progress-bar'></div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <div class='progress'><!-- 회색객체 -->
+                <div class='progress-bar' style='width: 15%'></div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <div class='progress' style='height: 2rem'>
+                <div class='progress-bar w-25'></div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <div class='progress'>
+                <div class='progress-bar w-75 progress-bar-striped'>75</div>
+            </div>
+        </div>
+
+        <div class='col'>
+            <div class='progress'>
+                <div class='progress-bar w-75 progress-bar-striped progress-bar-animated'>75</div>
+            </div>
+        </div>
+    </div>
+</div>
